@@ -11,6 +11,6 @@ jobs:
         with:
           node-version: 14
       - name: Install
-        run: npm ci
+        run: npm i
       - name: run tests
         run: npm run test -- --no-watch --code-coverage --browsers=ChromeHeadlessCI
